@@ -1,0 +1,9 @@
+name:         Parse-NetApp-ASUP
+version:      1.07
+version_from: lib/Parse/NetApp/ASUP.pm
+installdirs:  site
+requires:
+	File::Slurp:	9999.19
+	Digest::MD5:	2.50
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.21

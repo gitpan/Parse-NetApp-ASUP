@@ -1,0 +1,6 @@
+Revision history for Parse::NetApp::ASUP
+
+1.07  2013/02/07
+
+	Initial publication.
+	Adapted for both OO and non-OO methods.
