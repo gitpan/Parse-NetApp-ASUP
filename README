@@ -1,5 +1,5 @@
 
-Parse::NetApp::ASUP - Parse NetApp Weekly Auto Support Files - v 1.09
+Parse::NetApp::ASUP - Parse NetApp Weekly Auto Support Files - v 1.10
 
 ================================================================================
 SYNOPSIS:
@@ -28,7 +28,7 @@ USAGE:
 AUTHORSHIP:
 ================================================================================
 
-    Parse::NetApp::ASUP v1.09 2013/02/12
+    Parse::NetApp::ASUP v1.10 2013/02/20
 
     (c) 2012-2013, Phillip Pollard <bennie@cpan.org>
     Released under the Perl Artistic License
