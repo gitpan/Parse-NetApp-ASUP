@@ -1,5 +1,5 @@
 name:         Parse-NetApp-ASUP
-version:      1.10
+version:      1.13
 version_from: lib/Parse/NetApp/ASUP.pm
 installdirs:  site
 requires:
