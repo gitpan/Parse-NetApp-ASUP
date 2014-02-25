@@ -1,5 +1,10 @@
 Revision history for Parse::NetApp::ASUP
 
+1.14  2014/02/24
+
+	Updated meta information
+	Added LICENSE file into distribution
+
 1.13  2013/03/14
 
 	Further reduction in RAM consumption.

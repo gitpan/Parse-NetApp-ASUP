@@ -1,4 +1,4 @@
-$Parse::NetApp::ASUP::VERSION='1.13';
+$Parse::NetApp::ASUP::VERSION='1.14';
 
 =head1 NAME:
 
@@ -2900,9 +2900,22 @@ sub extract_xheader {
 
 1;
 
-=head1 AUTHORSHIP:
+=head1 BUGS AND SOURCE
 
-  Parse::NetApp::ASUP v1.13 2013/03/14
+	Bug tracking for this module: https://rt.cpan.org/Dist/Display.html?Name=Parse-NetApp-ASUP
 
-  (c) 2012-2013, Phillip Pollard <bennie@cpan.org>
-  Released under the Perl Artistic License
+	Source hosting: http://www.github.com/bennie/perl-Parse-NetApp-ASUP
+
+=head1 VERSION
+
+	Parse::NetApp::ASUP v1.14 (2014/02/24)
+
+=head1 COPYRIGHT
+
+	(c) 2012-2014, Phillip Pollard <bennie@cpan.org>
+
+=head1 LICENSE
+
+This source code is released under the "Perl Artistic License 2.0," the text of 
+which is included in the LICENSE file of this distribution. It may also be 
+reviewed here: http://opensource.org/licenses/artistic-license-2.0
