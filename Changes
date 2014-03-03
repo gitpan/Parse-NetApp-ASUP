@@ -1,6 +1,11 @@
 Revision history for Parse::NetApp::ASUP
 
-1.14  2014/02/24
+1.15  2014/03/03
+
+	Added a POD test
+	Now automatically building meta info
+
+1.13  2014/02/24
 
 	Updated meta information
 	Added LICENSE file into distribution
