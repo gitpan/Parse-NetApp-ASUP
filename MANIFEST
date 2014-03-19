@@ -1,6 +1,7 @@
 Changes
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
 README
@@ -140,4 +141,3 @@ t/method-extract_vscan.t
 t/method-extract_vscan_options.t
 t/method-extract_vscan_scanners.t
 t/method-extract_xheader.t
-META.json                                Module JSON meta-data (added by MakeMaker)

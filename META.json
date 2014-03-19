@@ -4,7 +4,7 @@
       "Phil Pollard <bennie@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.9, CPAN::Meta::Converter version 2.133380",
+   "generated_by" : "ExtUtils::MakeMaker version 6.92, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "artistic_2"
    ],
@@ -38,14 +38,16 @@
             "Digest::MD5" : "2.5",
             "File::Slurp" : "9999.19",
             "Test" : "0",
-            "Test::Simple" : "0"
+            "Test::More" : "0",
+            "Test::Simple" : "0",
+            "perl" : "5.008001"
          }
       }
    },
    "provides" : {
       "Parse::NetApp::ASUP" : {
          "file" : "lib/Parse/NetApp/ASUP.pm",
-         "version" : "1.15"
+         "version" : "1.16"
       }
    },
    "release_status" : "stable",
@@ -59,5 +61,5 @@
          "web" : "http://github.com/bennie/perl-Parse-NetApp-ASUP"
       }
    },
-   "version" : "1.15"
+   "version" : "1.16"
 }

@@ -5,9 +5,10 @@ WriteMakefile(
   AUTHOR   => 'Phil Pollard <bennie@cpan.org>',
   LICENSE  => 'artistic_2',
   NAME     => 'Parse::NetApp::ASUP',
-  VERSION  => '1.15',
+  VERSION  => '1.16',
 
   PREREQ_PM => {
+          'Test::More' => 0,
           'Digest::MD5' => '2.5',
           'Data::Dumper' => 0,
           'Test' => 0,
@@ -21,14 +22,16 @@ WriteMakefile(
         : ( META_MERGE => {
                 'meta-spec' => { version => 2 },
                 no_index => {directory => [qw/t/]},
-                provides => {
-                     'Parse::NetApp::ASUP' => {
-                          file    => 'lib/Parse/NetApp/ASUP.pm',
-                          version => '1.15'
-                     }
-                },
+                provides => 
+
+	{
+          'Parse::NetApp::ASUP' => {
+                                     'version' => '1.16',
+                                     'file' => 'lib/Parse/NetApp/ASUP.pm'
+                                   }
+        },
+
                 release_status => 'stable',
-                requires  => {perl => '5.008001'},
                 resources => {
                     repository => {
                         type => 'git',
@@ -42,6 +45,11 @@ WriteMakefile(
                 },
             },
         )
-    )
+    ),
+
+  ( $ExtUtils::MakeMaker::VERSION < 6.48
+        ? ()
+        : ( MIN_PERL_VERSION => '5.008001' )
+  )
 
 );
