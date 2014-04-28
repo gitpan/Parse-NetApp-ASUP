@@ -1,4 +1,4 @@
-$Parse::NetApp::ASUP::VERSION='1.16';
+$Parse::NetApp::ASUP::VERSION='1.17';
 
 =head1 NAME:
 
@@ -2908,7 +2908,7 @@ sub extract_xheader {
 
 =head1 VERSION
 
-	Parse::NetApp::ASUP v1.16 (2014/03/18)
+	Parse::NetApp::ASUP v1.17 (2014/04/28)
 
 =head1 COPYRIGHT
 
